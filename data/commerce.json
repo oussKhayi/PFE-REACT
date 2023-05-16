@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": "owner@example.com",
+      "email": "owner@example.com",
+      "role": "owner",
+      "status": "offline"
+    },
+    {
+      "id": "admin1@example.com",
+      "email": "admin1@example.com",
+      "role": "user",
+      "status": "offline"
+    },
+    {
+      "email": "oussflix20@gmail.com",
+      "role": "user",
+      "status": "offline",
+      "id": "oussflix20@gmail.com"
+    },
+    {
+      "id": "saidkhayi2007@gmail.com",
+      "email": "saidkhayi2007@gmail.com",
+      "role": "user",
+      "status": "offline"
+    },
+    {
+      "email": "khayi.ouss@gmail.com",
+      "role": "admin",
+      "status": "online",
+      "id": "khayi.ouss@gmail.com"
+    }
+  ],
+  "cart": [
+    {
+      "user_id": "khayi.ouss@gmail.com",
+      "items": [],
+      "id": 2
+    },
+    {
+      "user_id": "oussflix20@gmail.com",
+      "items": [],
+      "id": 6
+    },
+    {
+      "user_id": "saidkhayi2007@gmail.com",
+      "items": [],
+      "id": 7
+    }
+  ],
+  "favorite": [
+    {
+      "id": 1,
+      "user_id": "oussflix20@gmail.com",
+      "items": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "tv",
+      "logo": "https://thefoschini.vtexassets.com/arquivos/ids/53827765-800-800?v=638185615681500000&width=800&height=800&aspect=true"
+    },
+    {
+      "id": 2,
+      "name": "accessories",
+      "logo": "https://thefoschini.vtexassets.com/arquivos/ids/53075158-800-800?v=638184109339930000&width=800&height=800&aspect=true"
+    },
+    {
+      "id": 3,
+      "name": "phones",
+      "logo": "https://thefoschini.vtexassets.com/arquivos/ids/53775172-800-800?v=638185338627670000&width=800&height=800&aspect=true"
+    },
+    {
+      "id": 4,
+      "name": "laptops",
+      "logo": "https://thefoschini.vtexassets.com/arquivos/ids/53016805-800-800?v=638184045977800000&width=800&height=800&aspect=true"
+    }
+  ],
+  "orders": [
+    {
+      "id": "029d83sv4aa1",
+      "user_id": 3,
+      "order_date": "2022-03-15T08:00:00.000Z",
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 2,
+          "price": 20.99
+        },
+        {
+          "product_id": 3,
+          "quantity": 1,
+          "price": 29.99
+        }
+      ],
+      "total_price": 71.97,
+      "status": "delivered",
+      "delivered_date": "2022-03-15T08:00:00.000Z",
+      "admin_id": 1
+    },
+    {
+      "id": "024d83sv4ab1",
+      "user_id": 3,
+      "order_date": "2022-03-17T08:00:00.000Z",
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 1,
+          "price": 59.99
+        }
+      ],
+      "total_price": 59.99,
+      "status": "pending",
+      "delivered_date": null,
+      "admin_id": null
+    },
+    {
+      "user_id": "khayi.ouss@gmail.com",
+      "order_date": "Mon May 15 2023",
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 1
+        }
+      ],
+      "id": "HgEGvox"
+    },
+    {
+      "user_id": "oussflix20@gmail.com",
+      "order_date": "Tue May 16 2023",
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "product_id": 1,
+          "quantity": 1
+        },
+        {
+          "product_id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": "08oq2ej"
+    },
+    {
+      "user_id": "oussflix20@gmail.com",
+      "order_date": "Tue May 16 2023",
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "product_id": 1,
+          "quantity": 1
+        },
+        {
+          "product_id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": "GHaxDea"
+    },
+    {
+      "user_id": "khayi.ouss@gmail.com",
+      "order_date": "Tue May 16 2023",
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "product_id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": "RPf8JKh"
+    }
+  ],
+  "products": [
+    {
+      "name": "Hp ProBook 2023",
+      "category": "laptops",
+      "stock": "50",
+      "description": "Intel® Core™ i7-1255U  8 GB",
+      "price": "549",
+      "image": "blob:http://localhost:3000/212731b4-93d2-451e-8cfe-7887840d21ab",
+      "id": 4
+    },
+    {
+      "name": "Huawei Mate XS",
+      "category": "phones",
+      "stock": "10",
+      "description": "HUAWEI Mate Xs 2 is a foldable",
+      "price": "369",
+      "image": "blob:http://localhost:3000/42c92521-04ec-4346-9ba3-54835f52c6b2",
+      "id": 5
+    },
+    {
+      "name": "iPhone 14 Pro Max",
+      "category": "phones",
+      "stock": "10",
+      "description": "iPhone 14 Pro Max. Pro Beyond",
+      "price": "352",
+      "image": "blob:http://localhost:3000/14d48a59-df6a-47d2-b316-b2ea5810512c",
+      "id": 6
+    },
+    {
+      "name": "Huawei P50",
+      "category": "phones",
+      "stock": "10",
+      "description": "Pocket 512GB Dual Sim",
+      "price": "474",
+      "image": "blob:http://localhost:3000/4b5c7080-709d-4faa-a38b-805db9b15635",
+      "id": 7
+    },
+    {
+      "name": "samsung a40",
+      "category": "phones",
+      "stock": "10",
+      "description": "andr",
+      "price": "196",
+      "image": "blob:http://localhost:3000/1671bbb9-8f51-40c4-8103-d3693e1b978f",
+      "id": 8
+    }
+  ]
+}
